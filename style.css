@@ -178,7 +178,7 @@ body {
 .about-text {
   color: #000000;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 170%;
 }
 
 
@@ -276,7 +276,7 @@ body {
   display: flex;
   align-items: center;
   color: #94a3b8;
-  background-color: #000000;
+  background-color: #4e409e;
   font-size: 12px;
 }
 
@@ -292,7 +292,7 @@ body {
   color: #ffffff;
 }
 /* スマホ表示 */
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
 
   /* ヘッダー */
   .navbar {
@@ -379,7 +379,7 @@ body {
 .about-page-text {
   color: #000000;
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 170%;
 }
 
 /* 興味のある分野 */
@@ -393,7 +393,7 @@ body {
 }
 
 /* Aboutページのスマホ表示 */
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
   .about-page-hero {
     padding-top: 48px;
   }
@@ -448,11 +448,11 @@ body {
   margin-bottom: 0;
   color: #000000;
   font-size: 14px;
-  line-height: 1.85;
+  line-height: 185%;
 }
 
 /* スマホ表示 */
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
   .more-about-section {
     padding-top: 32px;
     padding-bottom: 72px;
@@ -476,7 +476,7 @@ body {
 }
 
 /* スマホ表示 */
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
   .about-closing {
     min-height: 260px;
   }
@@ -495,7 +495,7 @@ body {
   margin-bottom: 0;
   color: #000000;
   font-size: 20px;
-  line-height: 1.3;
+  line-height: 130%;
 }
 
 /* 画像 */
@@ -506,17 +506,50 @@ body {
 }
 
 /* 詳細のスマホ表示 */
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
   .work-detail-section {
     padding-top: 40px;
   }
 
   .work-detail-text {
     font-size: 17px;
-    line-height: 1.6;
+    line-height: 160%;
   }
 
   .work-detail-image {
+    height: auto;
+  }
+}
+/* マインクラフト画像 */
+.work-detail-image-minecraft {
+  height: 400px;
+}
+
+/* スマホ表示 */
+@media (max-width: 767px) {
+  .work-detail-image-minecraft {
+    height: auto;
+  }
+}
+/* 5G君画像 */
+.work-detail-image-5g {
+  height: 400px;
+}
+
+/* スマホ表示 */
+@media (max-width: 767px) {
+  .work-detail-image-5g {
+    height: auto;
+  }
+}
+/* マックブッ君画像 */
+.work-detail-image-macbook {
+  height: 420px;
+}
+
+/* スマホ表示 */
+@media (max-width: 767px) {
+  .work-detail-image-macbook {
     height: auto;
   }
 }
