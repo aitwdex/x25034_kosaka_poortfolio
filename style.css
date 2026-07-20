@@ -292,7 +292,7 @@ body {
   color: #ffffff;
 }
 /* スマホ表示 */
-@media (max-width: 767.px) {
+@media (max-width: 767.98px) {
 
   /* ヘッダー */
   .navbar {
@@ -405,5 +405,83 @@ body {
 
   .about-page-hero h1 {
     font-size: 32px;
+  }
+}
+/* 私について */
+.more-about-section {
+  padding-top: 48px;
+  padding-bottom: 120px;
+}
+
+/* 私についてのタイトル */
+.more-about-section h2 {
+  color: #111827;
+  font-size: 34px;
+}
+
+/* 私についてのカード */
+.about-detail-card {
+  min-height: 255px;
+  padding: 24px;
+  border: 1px solid #111827;
+  border-radius: 12px;
+}
+
+/* カード番号 */
+.about-number {
+  margin-bottom: 14px;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* カードタイトル */
+.about-detail-card h3 {
+  margin-bottom: 14px;
+  color: #111827;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* カードの説明 */
+.about-detail-card > p:last-child {
+  margin-bottom: 0;
+  color: #475569;
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+/* スマホ表示 */
+@media (max-width: 767.98px) {
+  .more-about-section {
+    padding-top: 32px;
+    padding-bottom: 72px;
+  }
+
+  .about-detail-card {
+    min-height: auto;
+  }
+}
+/* About */
+.about-closing {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+/* お礼のメッセージ */
+.about-closing h2 {
+  color: #111827;
+  font-size: 28px;
+}
+
+/* スマホ表示 */
+@media (max-width: 767.98px) {
+  .about-closing {
+    min-height: 260px;
+  }
+
+  .about-closing h2 {
+    font-size: 22px;
   }
 }
