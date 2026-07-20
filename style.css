@@ -92,8 +92,20 @@ body {
 /* 作品カード */
 #works .card {
   overflow: hidden;
-  border: 1px solid #000000;
+  border: 1px solid #111827;
   border-radius: 12px;
+
+  /* 動きを滑らかにする */
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+/* カードへマウスを重ねたとき */
+#works .card:hover {
+  /* カードを少し上へ移動する */
+  transform: translateY(-8px);
+
+  /* 浮いているような影を付ける */
+  box-shadow: 0 14px 30px rgba(17, 24, 39, 15%);
 }
 
 
