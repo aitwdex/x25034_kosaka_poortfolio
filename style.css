@@ -1,0 +1,70 @@
+/*
+   ページ全体の基本設定
+ */
+body {
+  margin: 0;
+  color: #111827;
+  background-color: #ffffff;
+  font-family: Arial, "Noto Sans JP", sans-serif;
+}
+
+
+/* 
+   ヘッダー
+ */
+.navbar {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+/* サイト名 */
+.navbar-brand {
+  color: #111827;
+  font-size: 18px;
+}
+
+
+/* ナビゲーション全体 */
+.navbar-nav {
+  gap: 20px;
+}
+
+
+/* メニューの文字 */
+.nav-link {
+  color: #4b5563;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* マウスを乗せたとき */
+.nav-link:hover {
+  color: #2563eb;
+}
+/* 
+   Hero
+ */
+.zikosyoukai-section {
+  min-height: 560px;
+
+  /* Heroの内容を上下中央付近に配置する */
+  display: flex;
+  align-items: center;
+}
+
+
+/* Heroの名前 */
+.zikosyoukai-section h1 {
+  color: #111827;
+  letter-spacing: -2px;
+}
+
+
+/* Heroのプロフィール写真 */
+.zikosyoukai-section img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
