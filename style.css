@@ -233,3 +233,40 @@ body {
   color: #64748b;
   font-size: 13px;
 }
+/* Contact */
+.contact-section {
+  min-height: 373px;
+  display: flex;
+  align-items: center;
+}
+
+/* SNSリンク */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  margin-top: 28px;
+}
+
+/* SNSアイコン */
+.social-links a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d1d5db;
+  border-radius: 50%;
+}
+
+/* S画像 */
+.social-links img {
+  width: 26px;
+  height: 26px;
+}
+
+/* カーソルを重ねたとき */
+.social-links a:hover {
+  border-color: #2563eb;
+  background-color: #eff6ff;
+}
