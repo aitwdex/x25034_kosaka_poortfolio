@@ -3,7 +3,7 @@
  */
 body {
   margin: 0;
-  color: #111827;
+  color: #000000;
   background-color: #ffffff;
   font-family: Arial, "Noto Sans JP", sans-serif;
 }
@@ -20,7 +20,7 @@ body {
 
 /* サイト名 */
 .navbar-brand {
-  color: #111827;
+  color: #000000;
   font-size: 18px;
 }
 
@@ -84,7 +84,7 @@ body {
 
 /* Worksのタイトル */
 #works h2 {
-  color: #111827;
+  color: #000000;
   font-size: 36px;
 }
 
@@ -92,7 +92,7 @@ body {
 /* 作品カード */
 #works .card {
   overflow: hidden;
-  border: 1px solid #111827;
+  border: 1px solid #000000;
   border-radius: 12px;
 }
 
@@ -140,7 +140,7 @@ body {
 .about-box,
 .skills-box {
   padding: 38px 42px;
-  border: 1px solid #111827;
+  border: 1px solid #000000;
   border-radius: 64px;
 }
 
@@ -169,14 +169,14 @@ body {
 /* タイトル */
 .about-box h2,
 .skills-box h2 {
-  color: #111827;
+  color: #000000;
   font-size: 34px;
 }
 
 
 /* 自己紹介文 */
 .about-text {
-  color: #374151;
+  color: #000000;
   font-size: 16px;
   line-height: 1.7;
 }
@@ -186,7 +186,7 @@ body {
 .about-list {
   margin-top: 22px;
   padding-left: 20px;
-  color: #475569;
+  color: #000000;
   font-size: 14px;
 }
 
@@ -213,7 +213,7 @@ body {
 /* スキル */
 .skill-item {
   padding: 15px 18px;
-  border: 1px solid #dce3ec;
+  border: 1px solid #ffffff;
   border-radius: 10px;
 }
 
@@ -221,7 +221,7 @@ body {
 /* スキル名 */
 .skill-item h3 {
   margin-bottom: 7px;
-  color: #111827;
+  color: #000000;
   font-size: 15px;
   font-weight: 600;
 }
@@ -255,7 +255,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #d1d5db;
+  border: 1px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -268,7 +268,7 @@ body {
 /* カーソルを重ねたとき */
 .social-links a:hover {
   border-color: #2563eb;
-  background-color: #eff6ff;
+  background-color: #ffffff;
 }
 /* フッター */
 .site-footer {
@@ -276,13 +276,13 @@ body {
   display: flex;
   align-items: center;
   color: #94a3b8;
-  background-color: #080035;
+  background-color: #000000;
   font-size: 12px;
 }
 
 /* ページ上部へ戻る */
 .site-footer a {
-  color: #cbd5e1;
+  color: #ffffff;
   font-weight: 600;
   text-decoration: none;
 }
@@ -371,13 +371,13 @@ body {
 
 /* タイトル */
 .about-page-hero h1 {
-  color: #111827;
+  color: #000000;
   font-size: 40px;
 }
 
 /* 紹介文 */
 .about-page-text {
-  color: #374151;
+  color: #000000;
   font-size: 17px;
   line-height: 1.7;
 }
@@ -415,7 +415,7 @@ body {
 
 /* 私についてのタイトル */
 .more-about-section h2 {
-  color: #111827;
+  color: #000000;
   font-size: 34px;
 }
 
@@ -438,7 +438,7 @@ body {
 /* カードタイトル */
 .about-detail-card h3 {
   margin-bottom: 14px;
-  color: #111827;
+  color: #000000;
   font-size: 22px;
   font-weight: 600;
 }
@@ -446,7 +446,7 @@ body {
 /* カードの説明 */
 .about-detail-card > p:last-child {
   margin-bottom: 0;
-  color: #475569;
+  color: #000000;
   font-size: 14px;
   line-height: 1.85;
 }
@@ -471,7 +471,7 @@ body {
 
 /* お礼のメッセージ */
 .about-closing h2 {
-  color: #111827;
+  color: #000000;
   font-size: 28px;
 }
 
@@ -483,5 +483,40 @@ body {
 
   .about-closing h2 {
     font-size: 22px;
+  }
+}
+/* 詳細 */
+.work-detail-section {
+  padding-top: 48px;
+}
+
+/* 説明 */
+.work-detail-text {
+  margin-bottom: 0;
+  color: #000000;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+/* 画像 */
+.work-detail-image {
+  width: 100%;
+  height: 333px;
+  object-fit: cover;
+}
+
+/* 詳細のスマホ表示 */
+@media (max-width: 767.98px) {
+  .work-detail-section {
+    padding-top: 40px;
+  }
+
+  .work-detail-text {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .work-detail-image {
+    height: auto;
   }
 }
